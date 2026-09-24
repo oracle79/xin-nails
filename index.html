@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Xin Nails | Custom Nails in Pattaya</title>
+<meta name="description" content="Custom nail sets in Pattaya. Portfolio, prices and online booking.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#1D1226;--pearl:#FFF5FA;--rose:#F8D7E8;--lilac:#D9CCFF;--hot:#E8267C;--white:#fff}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{font:400 17px/1.65 "Prompt","Noto Sans SC",system-ui,sans-serif;color:var(--ink);background:var(--pearl)}
+h1,h2,h3{line-height:1.2;font-weight:700}
+:focus-visible{outline:3px solid var(--hot);outline-offset:3px}
+.wrap{max-width:980px;margin:0 auto;padding:0 20px}
+header{background:radial-gradient(900px 500px at 85% 20%,rgba(232,38,124,.35),transparent 60%),radial-gradient(700px 400px at 10% 100%,rgba(140,110,255,.3),transparent 60%),var(--ink);color:var(--pearl);padding-bottom:64px;overflow:hidden}
+nav{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;justify-content:space-between;padding:16px 0}
+nav b{font-size:20px}
+nav .l{display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+nav a{color:inherit;text-decoration:none;font-size:15px}
+.lg button{background:none;border:1.5px solid rgba(255,255,255,.5);color:inherit;padding:3px 11px;border-radius:99px;font:inherit;font-size:14px;cursor:pointer}
+.lg button[aria-pressed=true]{background:var(--rose);color:var(--ink);border-color:var(--rose)}
+.hero{display:grid;grid-template-columns:1.1fr 1fr;gap:30px;align-items:center;padding-top:34px}
+h1{font-size:clamp(36px,6.5vw,66px)}
+.hero p{margin:18px 0 26px;max-width:36ch;font-size:18px;opacity:.88}
+.btn{display:inline-block;border:0;cursor:pointer;background:var(--hot);color:#fff;font:500 16px "Prompt","Noto Sans SC";padding:13px 26px;border-radius:99px;text-decoration:none}
+.btn.o{background:none;border:2px solid currentColor;margin-left:8px}
+.nails{display:flex;gap:10px;justify-content:center;align-items:flex-end;height:270px}
+.nails i{display:block;width:17%;border-radius:50% 50% 42% 42%/72% 72% 28% 28%;box-shadow:inset -6px -8px 14px rgba(0,0,0,.18),inset 6px 8px 14px rgba(255,255,255,.35)}
+.nails i:nth-child(1){height:150px;background:linear-gradient(160deg,#ffd1e6,#e8267c)}
+.nails i:nth-child(2){height:205px;background:linear-gradient(160deg,#f2eaff,#9d84ff)}
+.nails i:nth-child(3){height:250px;background:linear-gradient(160deg,#fff,#d7d2e6 45%,#8f8aa8)}
+.nails i:nth-child(4){height:210px;background:linear-gradient(160deg,#ffe3cf,#ff8a5c 60%,#e8267c)}
+.nails i:nth-child(5){height:140px;background:linear-gradient(160deg,#d9ccff,#5a3fc0)}
+section{padding:72px 0}
+h2{font-size:clamp(28px,4.5vw,42px);margin-bottom:10px}
+.lead{max-width:56ch;margin-bottom:32px;opacity:.85}
+.gal{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.tile{position:relative;aspect-ratio:3/4;border-radius:22px;box-shadow:0 10px 28px rgba(60,20,70,.14);transition:transform .25s;display:grid;place-items:center;font-size:14px;color:var(--ink);overflow:hidden;text-align:center;padding:8px}
+.tile:hover{transform:translateY(-4px)}.tile svg{width:100%;height:100%;display:block}.tile em{position:absolute;left:10px;bottom:10px;font:500 13px "Prompt","Noto Sans SC";font-style:normal;background:rgba(255,255,255,.88);padding:3px 11px;border-radius:99px}
+.tile img{width:100%;height:100%;object-fit:cover}
+.tile:nth-child(4n+1){background:linear-gradient(160deg,#FFE3F0,#F6B8D6)}.tile:nth-child(4n+2){background:linear-gradient(160deg,#EEE7FF,#BDA9FF)}.tile:nth-child(4n+3){background:linear-gradient(160deg,#FFEBDD,#FFC2A3)}.tile:nth-child(4n){background:linear-gradient(160deg,#E4F5F6,#A9D8DC)}
+.pr-wrap{background:var(--white)}
+.grp{margin-bottom:34px}
+.grp h3{font-size:22px;margin-bottom:8px}
+.grp.feat{background:var(--ink);color:var(--pearl);padding:22px 24px;border-radius:22px}
+.row{display:flex;justify-content:space-between;gap:16px;padding:14px 0;border-bottom:1px solid rgba(128,128,128,.25)}
+.row:last-child{border:0}
+.row p{font-size:15px;opacity:.8}
+.row b{font-weight:500}
+.pr{font-weight:700;white-space:nowrap;color:var(--hot)}
+.feat .pr{color:#FFB3D6}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:8px}
+.steps div{border-top:4px solid var(--hot);padding-top:12px}
+.steps h3{font-size:18px}.steps p{font-size:15px;opacity:.85}
+form{background:var(--white);border-radius:22px;padding:26px;display:grid;gap:16px;max-width:640px}
+label,.lb{font-weight:500;font-size:15px;display:block;margin-bottom:5px}
+input,select,textarea{width:100%;font:inherit;padding:11px 12px;border:1.5px solid #CDBFD8;border-radius:12px;background:#fff;color:var(--ink)}
+.slots{display:flex;flex-wrap:wrap;gap:8px}
+.slots label{margin:0}
+.slots input{position:absolute;opacity:0;width:1px}
+.slots span{display:inline-block;padding:9px 16px;border:1.5px solid #CDBFD8;border-radius:99px;cursor:pointer}
+.slots input:checked+span{background:var(--ink);color:#fff;border-color:var(--ink)}
+.slots input:focus-visible+span{outline:3px solid var(--hot)}
+.note{font-size:14px;opacity:.75}
+.err{color:#B3123F;font-weight:500}
+#out{display:none;margin-top:20px;max-width:640px}
+#out pre{white-space:pre-wrap;font:inherit;background:var(--rose);padding:16px;border-radius:14px;margin:10px 0 14px}
+#out .btn{margin:0 8px 8px 0}
+details{border-bottom:1px solid rgba(128,128,128,.3);padding:14px 0}
+summary{font-weight:500;cursor:pointer}
+details p{margin-top:8px;opacity:.85}
+footer{background:var(--ink);color:var(--pearl);padding:44px 0;text-align:center}
+footer p{margin:8px auto 20px;max-width:46ch;opacity:.85}
+@media(max-width:780px){.hero{grid-template-columns:1fr}.nails{height:200px}.nails i:nth-child(n){transform:scale(.75);transform-origin:bottom}.gal{grid-template-columns:repeat(2,1fr)}.steps{grid-template-columns:1fr 1fr}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<nav><b>Xin Nails</b>
+<div class="l"><a href="#work" data-t="nP"></a><a href="#prices" data-t="nS"></a><a href="#book" data-t="nB"></a><a href="#faq" data-t="nF"></a>
+<span class="lg"><button data-l="0">EN</button> <button data-l="1">ไทย</button> <button data-l="2">中文</button></span></div></nav>
+<div class="hero">
+<div><h1 data-t="h1"></h1><p data-t="hp"></p><a class="btn" href="#book" data-t="cB"></a><a class="btn o" href="#work" data-t="cW"></a></div>
+<div class="nails" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+</div></div></header>
+
+<section id="work"><div class="wrap">
+<h2 data-t="ptH"></h2><p class="lead" data-t="ptL"></p>
+<div class="gal" id="gal"></div>
+</div></section>
+
+<section id="prices" class="pr-wrap"><div class="wrap">
+<h2 data-t="stH"></h2><p class="lead" data-t="stL"></p>
+<div class="grp feat"><h3 data-t="gC"></h3><div id="gc"></div></div>
+<div class="grp"><h3 data-t="gE"></h3><div id="ge"></div></div>
+<h2 data-t="sH" style="margin-top:50px"></h2>
+<div class="steps" id="steps"></div>
+</div></section>
+
+<section id="book"><div class="wrap">
+<h2 data-t="bH"></h2><p class="lead" data-t="bL"></p>
+<form id="f" novalidate>
+<div><label for="sv" data-t="bS"></label><select id="sv"></select></div>
+<div><label for="dt" data-t="bD"></label><input type="date" id="dt"></div>
+<div><span class="lb" data-t="bT"></span><div class="slots" id="sl"></div></div>
+<div><label for="nm" data-t="bN"></label><input id="nm" autocomplete="name"></div>
+<div><label for="ct" data-t="bC"></label><input id="ct"></div>
+<div><label for="id" data-t="bI"></label><textarea id="id" rows="3"></textarea></div>
+<p class="err" id="er" role="alert"></p>
+<button class="btn" type="submit" data-t="bG"></button>
+<p class="note" data-t="bNote"></p>
+</form>
+<div id="out"><p data-t="bOk"></p><pre id="msg"></pre>
+<a class="btn" id="wa" target="_blank" rel="noopener">WhatsApp</a><a class="btn" id="ln" target="_blank" rel="noopener">LINE</a><button class="btn o" id="cp" type="button"></button></div>
+</div></section>
+
+<section id="faq" class="pr-wrap"><div class="wrap">
+<h2 data-t="fH"></h2><div id="fq"></div>
+<p style="margin-top:22px" data-t="loc"></p>
+</div></section>
+
+<footer><div class="wrap"><h2 data-t="kH"></h2><p data-t="kP"></p>
+<a class="btn" id="l2" target="_blank" rel="noopener">LINE</a> <a class="btn o" id="w2" target="_blank" rel="noopener">WhatsApp</a> <a class="btn o" id="ig" target="_blank" rel="noopener">Instagram</a>
+<p class="note" style="margin-top:24px">© 2026 Xin Nails · Pattaya</p></div></footer>
+
+<script>
+/* ===== EDIT THESE ===== */
+const CFG={line:"YOUR_LINE_ID",wa:"66XXXXXXXXX",ig:"YOUR_INSTAGRAM",slots:["11:00","13:00","15:00","17:00"]};
+/* Portfolio: put image paths here, e.g. "img/set1.jpg". Empty = placeholder. */
+const PORT=["","","","","","","",""];
+/* Services: [id, price in baht, 1 if "from" price]. Edit prices here. */
+const SV=[["c1",1500,0],["c2",2500,0],["c3",3500,1],["e1",350,0],["e2",600,0],["e3",200,0],["e4",1200,1],["e5",100,0]];
+/* ====================== */
+const T={
+nP:["Portfolio","ผลงาน","作品集"],nS:["Prices","ราคา","价格"],nB:["Book","จองคิว","预约"],nF:["FAQ","คำถามที่พบบ่อย","常见问题"],
+h1:["Custom nails, designed for you","เล็บดีไซน์เฉพาะคุณ","为你量身设计的美甲"],
+hp:["Hand-painted and sculpted sets in Pattaya. Send me a photo, pick a time, and I'll make it real.","เล็บเพ้นท์และปั้นมือในพัทยา ส่งรูปที่ชอบมา เลือกเวลา แล้วฉันจะทำให้เป็นจริง","在芭提雅手绘、手工造型美甲。发来喜欢的图片，选好时间，我来帮你实现。"],
+cB:["Book a time","จองคิว","立即预约"],cW:["See my work","ดูผลงาน","查看作品"],
+ptH:["Portfolio","ผลงาน","作品集"],ptL:["Recent custom sets.","ผลงานเล็บดีไซน์ล่าสุด","近期定制款作品。"],ph:["Photo","รูปผลงาน","作品图"],
+stH:["Services and prices","บริการและราคา","服务与价格"],
+stL:["Prices are in Thai baht. Custom sets are starting prices. I confirm the final quote once I see your design.","ราคาเป็นเงินบาท ชุดดีไซน์เป็นราคาเริ่มต้น ฉันจะแจ้งราคาสุดท้ายเมื่อเห็นแบบของคุณ","价格单位为泰铢。定制款为起步价，看过你的设计后我会给出最终报价。"],
+gC:["Custom sets","เล็บดีไซน์เฉพาะ","定制美甲"],gE:["Everyday care","บริการทั่วไป","日常护理"],
+c1n:["Signature","ซิกเนเจอร์","经典款"],c1d:["Gel colour with hand-painted art on up to 4 nails, plus gems or foil.","เจลสีพร้อมเพ้นท์มือได้ถึง 4 เล็บ ตกแต่งเพชรหรือฟอยล์","凝胶上色，最多4片手绘图案，可加水钻或金箔。"],
+c2n:["Premium","พรีเมียม","高级款"],c2d:["Full-set art with chrome or cat-eye, 3D details and charms.","เพ้นท์ครบทั้งชุด โครเมียมหรือแคทอาย งาน 3D และชาร์ม","全套艺术设计，镜面或猫眼效果，立体细节和挂饰。"],
+c3n:["Couture","คูตูร์","高定款"],c3d:["Your own concept, fully sculpted. Mixed media, 3D and photo-ready.","คอนเซ็ปต์ของคุณเอง ปั้นมือทั้งชุด งานผสมหลายเทคนิคและ 3D พร้อมถ่ายรูป","按你的创意完整手工造型，多种材质与立体设计，适合拍照。"],
+e1n:["Classic manicure","มานิเคียร์ทั่วไป","基础手部护理"],e1d:["Shape, cuticle care and regular polish.","ตกแต่งทรง ดูแลหนังเล็บ และทาสีธรรมดา","修型、修护甲缘并涂普通甲油。"],
+e2n:["Gel polish","ทาสีเจล","凝胶美甲"],e2d:["Long-lasting colour, usually 2 to 3 weeks.","สีติดทนนาน ปกติ 2–3 สัปดาห์","持久上色，通常可维持2至3周。"],
+e3n:["Gel removal","ถอดสีเจล","卸甲"],e3d:["Gentle soak-off.","ถอดแบบซอคออฟอย่างอ่อนโยน","温和浸泡卸除。"],
+e4n:["Extensions","ต่อเล็บ","接甲"],e4d:["Gel or PVC length in any shape.","ต่อเล็บเจลหรือ PVC ทุกทรง","凝胶或PVC延长，任何甲型。"],
+e5n:["Nail repair","ซ่อมเล็บ","修补"],e5d:["Per nail. Fixes a break or a lifted nail.","ต่อ 1 เล็บ ซ่อมเล็บหักหรือหลุดลอก","每片。修补断裂或翘起。"],
+sH:["How a custom set works","ขั้นตอนการทำเล็บดีไซน์","定制流程"],
+s1h:["Send your idea","ส่งไอเดีย","发来创意"],s1p:["Share photos or a mood board on LINE or WhatsApp.","ส่งรูปหรือมู้ดบอร์ดทาง LINE หรือ WhatsApp","通过LINE或WhatsApp发送图片或灵感板。"],
+s2h:["Get a quote","รับใบเสนอราคา","获取报价"],s2p:["I reply with a price and the time needed.","ฉันตอบกลับพร้อมราคาและเวลาที่ใช้","我会回复价格和所需时间。"],
+s3h:["Pay the deposit","ชำระมัดจำ","支付定金"],s3p:["฿500 by PromptPay locks your time.","มัดจำ ฿500 ผ่านพร้อมเพย์เพื่อจองเวลา","通过PromptPay支付฿500定金即可锁定时间。"],
+s4h:["Come in","มาทำเล็บ","到店美甲"],s4p:["Custom sets take 2.5 to 4 hours.","ชุดดีไซน์ใช้เวลา 2.5–4 ชั่วโมง","定制款需要2.5至4小时。"],
+bH:["Book a time","จองคิว","预约"],bL:["Pick a service, day and start time. I'll reply to confirm.","เลือกบริการ วัน และเวลาเริ่ม ฉันจะตอบกลับเพื่อยืนยัน","选择服务、日期和开始时间，我会回复确认。"],
+bS:["Service","บริการ","服务"],bD:["Date","วันที่","日期"],bT:["Start time","เวลาเริ่ม","开始时间"],bN:["Your name","ชื่อของคุณ","你的姓名"],bC:["LINE ID or WhatsApp","LINE ID หรือ WhatsApp","LINE或WhatsApp账号"],bI:["Design idea (optional)","ไอเดียดีไซน์ (ถ้ามี)","设计想法（选填）"],
+bG:["Create booking request","สร้างคำขอจอง","生成预约请求"],bNote:["Not confirmed until I reply and the deposit is paid.","ยังไม่ยืนยันจนกว่าฉันจะตอบกลับและได้รับมัดจำ","需我回复确认并收到定金后才算预约成功。"],
+bErr:["Please choose a service, date, time and enter your name and contact.","กรุณาเลือกบริการ วันที่ เวลา และกรอกชื่อกับช่องทางติดต่อ","请选择服务、日期、时间，并填写姓名和联系方式。"],
+bOk:["Your request is ready. Send it to me:","คำขอพร้อมแล้ว ส่งให้ฉันได้เลย:","预约请求已生成，请发给我："],cp:["Copy text","คัดลอกข้อความ","复制文字"],cd:["Copied","คัดลอกแล้ว","已复制"],
+mT:["Hi Xin, I'd like to book:\nService: {s}\nDate: {d}\nTime: {t}\nName: {n}\nContact: {c}\nIdea: {i}","สวัสดีค่ะพี่ชิน ขอจองคิว:\nบริการ: {s}\nวันที่: {d}\nเวลา: {t}\nชื่อ: {n}\nติดต่อ: {c}\nไอเดีย: {i}","你好Xin，我想预约：\n服务：{s}\n日期：{d}\n时间：{t}\n姓名：{n}\n联系方式：{c}\n想法：{i}"],
+fH:["Questions","คำถามที่พบบ่อย","常见问题"],
+f1q:["How long does a set last?","เล็บอยู่ได้นานแค่ไหน","美甲能维持多久？"],f1a:["Gel and extensions usually last 2 to 3 weeks with normal wear.","เจลและต่อเล็บมักอยู่ได้ 2–3 สัปดาห์หากใช้งานตามปกติ","凝胶和接甲在正常使用下通常可维持2至3周。"],
+f2q:["How long is an appointment?","ใช้เวลาทำนานเท่าไร","需要多长时间？"],f2a:["Gel polish takes about 1 hour. Custom sets take 2.5 to 4 hours depending on the design.","ทาสีเจลประมาณ 1 ชั่วโมง ชุดดีไซน์ใช้ 2.5–4 ชั่วโมงตามงาน","凝胶美甲约1小时，定制款根据设计需要2.5至4小时。"],
+f3q:["Do I need to pay a deposit?","ต้องมัดจำไหม","需要付定金吗？"],f3a:["Custom sets need a ฿500 deposit, which is deducted from your total.","ชุดดีไซน์ต้องมัดจำ ฿500 และนำไปหักจากยอดรวม","定制款需支付฿500定金，将从总价中扣除。"],
+f4q:["Can I reschedule or cancel?","เลื่อนหรือยกเลิกได้ไหม","可以改期或取消吗？"],f4a:["Yes, with at least 24 hours notice. Later than that, the deposit is not refunded.","ได้ หากแจ้งล่วงหน้าอย่างน้อย 24 ชั่วโมง หากแจ้งช้ากว่านั้นจะไม่คืนมัดจำ","可以，需提前至少24小时通知，否则定金不予退还。"],
+f5q:["Can I bring a photo of what I want?","เอารูปตัวอย่างมาได้ไหม","可以带参考图吗？"],f5a:["Yes, please do. I'll tell you honestly what is possible on your nail shape and length.","ได้เลย ฉันจะบอกตามตรงว่าทำได้แค่ไหนกับทรงและความยาวเล็บของคุณ","当然可以。我会如实告诉你在你的甲型和长度上能做到什么程度。"],
+f6q:["How do I pay?","จ่ายเงินอย่างไร","如何付款？"],f6a:["Cash or PromptPay.","เงินสดหรือพร้อมเพย์","现金或PromptPay。"],
+loc:["Location: Pattaya, Thailand. I send the exact address after you book.","สถานที่: พัทยา ประเทศไทย ฉันจะส่งที่อยู่ให้หลังจองคิว","地点：泰国芭提雅。预约后我会发送具体地址。"],
+kH:["Questions? Message me","มีคำถามทักได้เลย","有问题？请联系我"],kP:["Send your design photos and I'll reply with a quote.","ส่งรูปดีไซน์มา ฉันจะตอบกลับพร้อมราคา","发来设计图，我会回复报价。"]
+};
+Object.assign(T,{d0:["Chrome","โครเมียม","镜面"],d1:["French tip","เฟรนช์ทิป","法式"],d2:["Cat-eye","แคทอาย","猫眼"],d3:["Marble","ลายหินอ่อน","大理石"],d4:["Glitter ombré","กากเพชรไล่สี","闪粉渐变"],d5:["Floral","ลายดอกไม้","花朵"],d6:["Gems and 3D","เพชรและ 3D","水钻与立体"],d7:["Black and gold","ดำทอง","黑金"]});
+const NX=[56,110,164,218,272],NY=[215,175,155,177,228],NW=[44,48,50,48,46];
+function alm(x,y,w,h){return"M"+(x-w/2)+" "+(y+h)+"L"+(x-w/2)+" "+(y+h*.45)+"Q"+(x-w/2+2)+" "+(y+h*.12)+" "+x+" "+y+"Q"+(x+w/2-2)+" "+(y+h*.12)+" "+(x+w/2)+" "+(y+h*.45)+"L"+(x+w/2)+" "+(y+h)+"Z"}
+function art(i){
+const G=[["#fff","#cfc9e0","#8a84a6"],null,["#2a1247","#6b3fb8","#e8a8ff"],["#fbf7fb","#efe3ee"],["#ffd1e6","#ff9ac4","#ffd96b"],["#efe6ff","#d9ccff"],["#f8d3d0","#f1b8b8"],["#15101a","#2a2030"]][i];
+let d='<defs>',b='';
+NX.forEach((x,k)=>{const y=NY[k],w=NW[k],hh=400-y;
+let f;
+if(i==1){d+='<linearGradient id="a'+i+k+'" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff"/><stop offset=".3" stop-color="#fff"/><stop offset=".3" stop-color="#f7d9d2"/><stop offset="1" stop-color="#f4cfc7"/></linearGradient>';}
+else{d+='<linearGradient id="a'+i+k+'" x1="0" y1="0" x2="1" y2="1">'+G.map((c,j)=>'<stop offset="'+(j/(G.length-1))+'" stop-color="'+c+'"/>').join("")+'</linearGradient>';}
+b+='<path d="'+alm(x,y,w+8,hh)+'" fill="#F1CFC0"/>';
+const ny=y+8,nh=[92,118,134,116,90][k],nw=w;
+b+='<path d="'+alm(x,ny,nw,nh)+'" fill="url(#a'+i+k+')"/>';
+const cx=x,cy=ny+nh*.5;
+if(i==2)b+='<path d="M'+(x-nw/2+6)+' '+(ny+nh*.75)+'L'+(x+nw/2-4)+' '+(ny+nh*.25)+'" stroke="#fff" stroke-opacity=".55" stroke-width="7" stroke-linecap="round"/>';
+if(i==3)b+='<path d="M'+(x-nw/2)+' '+(ny+nh*.5)+'q10 -14 20 -2t20 -12M'+(x-nw/2+4)+' '+(ny+nh*.8)+'q12 -10 22 0t16 -8" stroke="#8b7b96" stroke-opacity=".6" fill="none" stroke-width="1.6"/>';
+if(i==4)for(let s=0;s<9;s++)b+='<circle cx="'+(x-nw/2+6+((s*17+k*7)%(nw-8)))+'" cy="'+(ny+10+((s*29+k*13)%(nh-14)))+'" r="1.7" fill="#fff" fill-opacity=".85"/>';
+if(i==5){b+='<g fill="#fff">'+[0,72,144,216,288].map(a=>'<circle cx="'+(cx+6*Math.cos(a*Math.PI/180))+'" cy="'+(cy+6*Math.sin(a*Math.PI/180))+'" r="3.6"/>').join("")+'</g><circle cx="'+cx+'" cy="'+cy+'" r="3" fill="#ffb84d"/>';}
+if(i==6){b+='<path d="M'+cx+' '+(cy-9)+'l7 9l-7 9l-7 -9z" fill="#ffe08a" stroke="#c9962b" stroke-width="1"/><circle cx="'+(cx-9)+'" cy="'+(cy+16)+'" r="3" fill="#fff" stroke="#c9962b"/><circle cx="'+(cx+8)+'" cy="'+(cy+21)+'" r="2.4" fill="#ffd0e6" stroke="#c9962b"/>';}
+if(i==7)b+='<path d="M'+(x-nw/2+4)+' '+(ny+nh*.55)+'L'+(x+nw/2-4)+' '+(ny+nh*.4)+'M'+(x-nw/2+4)+' '+(ny+nh*.62)+'L'+(x+nw/2-4)+' '+(ny+nh*.47)+'" stroke="#e4b94a" stroke-width="2"/>';
+b+='<ellipse cx="'+(x-nw*.18)+'" cy="'+(ny+nh*.3)+'" rx="4" ry="'+nh*.16+'" fill="#fff" fill-opacity=".4"/>';
+});
+return'<svg viewBox="0 0 320 400" role="img" aria-label="'+t("d"+i)+'" preserveAspectRatio="xMidYMax slice">'+d+'</defs>'+b+'</svg>'}
+let g=0;const $=s=>document.querySelector(s),t=k=>T[k][g];
+const fmt=n=>"฿"+n.toLocaleString("en-US");
+const nm=i=>t(i+"n"),svLabel=s=>t(s[0]+"n")+" "+fmt(s[1])+(s[2]?"+":"");
+function build(){
+$("#gal").innerHTML=PORT.map((s,i)=>'<div class="tile">'+(s?'<img loading="lazy" src="'+s+'" alt="">':art(i)+'<em>'+t("d"+i)+'</em>')+'</div>').join("");
+const row=s=>'<div class="row"><div><b>'+t(s[0]+"n")+'</b><p>'+t(s[0]+"d")+'</p></div><span class="pr">'+fmt(s[1])+(s[2]?"+":"")+'</span></div>';
+$("#gc").innerHTML=SV.filter(s=>s[0][0]=="c").map(row).join("");
+$("#ge").innerHTML=SV.filter(s=>s[0][0]=="e").map(row).join("");
+$("#steps").innerHTML=[1,2,3,4].map(n=>'<div><h3>'+t("s"+n+"h")+'</h3><p>'+t("s"+n+"p")+'</p></div>').join("");
+$("#fq").innerHTML=[1,2,3,4,5,6].map(n=>'<details><summary>'+t("f"+n+"q")+'</summary><p>'+t("f"+n+"a")+'</p></details>').join("");
+const cur=$("#sv").value;$("#sv").innerHTML='<option value=""></option>'+SV.map(s=>'<option value="'+s[0]+'">'+svLabel(s)+'</option>').join("");$("#sv").value=cur;
+}
+function setLang(n){g=n;document.documentElement.lang=["en","th","zh"][n];
+document.querySelectorAll("[data-t]").forEach(e=>e.textContent=t(e.dataset.t));
+document.querySelectorAll(".lg button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.l==n));
+$("#cp").textContent=t("cp");build();$("#er").textContent="";
+document.title=["Xin Nails | Custom Nails in Pattaya","Xin Nails | เล็บดีไซน์เฉพาะ พัทยา","Xin Nails | 芭提雅定制美甲"][n];
+try{localStorage.setItem("lang",n)}catch(e){}}
+/* slots + date */
+$("#sl").innerHTML=CFG.slots.map(s=>'<label><input type="radio" name="tm" value="'+s+'"><span>'+s+'</span></label>').join("");
+const today=new Date(Date.now()-new Date().getTimezoneOffset()*6e4).toISOString().slice(0,10);$("#dt").min=today;
+/* links */
+$("#l2").href="https://line.me/ti/p/~"+CFG.line;$("#w2").href="https://wa.me/"+CFG.wa;$("#ig").href="https://instagram.com/"+CFG.ig;
+$("#f").addEventListener("submit",e=>{e.preventDefault();
+const sv=SV.find(s=>s[0]==$("#sv").value),tm=document.querySelector('input[name=tm]:checked'),d=$("#dt").value,n=$("#nm").value.trim(),c=$("#ct").value.trim();
+if(!sv||!tm||!d||!n||!c){$("#er").textContent=t("bErr");return}
+$("#er").textContent="";
+const m=t("mT").replace("{s}",svLabel(sv)).replace("{d}",d).replace("{t}",tm.value).replace("{n}",n).replace("{c}",c).replace("{i}",$("#id").value.trim()||"-");
+$("#msg").textContent=m;$("#wa").href="https://wa.me/"+CFG.wa+"?text="+encodeURIComponent(m);$("#ln").href="https://line.me/R/share?text="+encodeURIComponent(m);
+$("#out").style.display="block";$("#out").scrollIntoView({behavior:"smooth"});});
+$("#cp").onclick=()=>{try{navigator.clipboard.writeText($("#msg").textContent);$("#cp").textContent=t("cd")}catch(e){}};
+document.querySelectorAll(".lg button").forEach(b=>b.onclick=()=>setLang(+b.dataset.l));
+let s0=0;try{s0=+localStorage.getItem("lang")}catch(e){}
+if(!s0){const nl=(navigator.language||"").toLowerCase();s0=nl.startsWith("th")?1:nl.startsWith("zh")?2:0}
+setLang(s0);
+</script>
+</body>
+</html>
